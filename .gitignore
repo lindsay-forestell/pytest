@@ -21,3 +21,6 @@ venv.bak/
 # VSCode
 .vscode/
 __pycache__/
+
+# test building
+pytest.egg-info/

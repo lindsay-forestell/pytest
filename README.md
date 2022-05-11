@@ -28,3 +28,10 @@ import numpy as np
 x = np.random.rand(100)
 plot_histogram(x)
 ```
+
+NEW in versoin 0.0.3! Create a madlibs about computers. 
+```py
+from pytest.utils import mad_libs
+
+mad_libs()
+```
