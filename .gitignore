@@ -20,3 +20,4 @@ venv.bak/
 
 # VSCode
 .vscode/
+*__pycache__/
