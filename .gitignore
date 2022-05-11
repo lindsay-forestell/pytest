@@ -23,5 +23,5 @@ venv.bak/
 __pycache__/
 
 # test building
-pytest.egg-info/
+mypytest.egg-info/
 build/

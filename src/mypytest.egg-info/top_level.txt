@@ -1,2 +1,0 @@
-mypytest
-subtest1
