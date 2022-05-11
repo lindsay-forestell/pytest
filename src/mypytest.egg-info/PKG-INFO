@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: mypytest
+Version: 0.0.3
+Summary: Testing creating and maintenance of python packages on GitHub
+Home-page: https://github.com/lindsay-forestell/pytest
+Author: Lindsay Forestell
+Author-email: lindsay.forestell@gmail.com
+Project-URL: Bug Tracker, https://github.com/lindsay-forestell/pytest/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache 2.0 License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # mypytest
 Testing the production of python packages.
 
@@ -37,15 +52,3 @@ from mypytest.utils import mad_libs
 
 mad_libs()
 ```
-
-NEW in version 0.0.4! Now supports installation of multiple packages 
-```py
-import mypytest
-import mypytest.subtest
-from subtest1 import *
-
-mypytest.subtest.print_sw()
-utils.print_sw1()
-```
-
-

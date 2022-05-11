@@ -24,3 +24,4 @@ __pycache__/
 
 # test building
 pytest.egg-info/
+build/
