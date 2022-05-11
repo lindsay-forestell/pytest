@@ -10,10 +10,10 @@ Testing the production of python packages.
 ```py
 from pytest import *
 
-guess_a_number()
+utils.guess_a_number()
 
 test = ['a', 'b', 'c', 'd', 'e']
-test_1 = utils.random_list_chunk(test, 3)
+test_1 = random_list_chunk(test, 3)
 
 print(test)
 ```
