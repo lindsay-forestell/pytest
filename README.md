@@ -16,4 +16,5 @@ test = ['a', 'b', 'c', 'd', 'e']
 test_1 = random_list_chunk(test, 3)
 
 print(test)
+print(test_1)
 ```
