@@ -9,7 +9,7 @@ def random_list_chunk(my_list, n_return):
         n_return (list): Length to return
 
     Returns:
-        list: shuffled truncated list 
+        list: shuffled truncated list
     """
 
     copied_list = my_list.copy()
