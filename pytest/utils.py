@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+from .plotting import plot_hist
 
 
 def random_list_chunk(my_list, n_return):
@@ -44,3 +46,9 @@ def guess_a_number(max_guesses=10):
             guess = int(input(f'{string_start}. You have {guess_left} guesses remaining. Guess again: '))
         else:
             print(f'Unlucky. The secret number was {random_number}.')
+
+
+def plot_histogram(x):
+    # make into an arbitrary pandas df to require the package be installed
+    df = pd.DataFrame(columns=['x'], data=x)
+    plot_hist(df, 'x')
