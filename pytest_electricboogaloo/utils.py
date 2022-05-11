@@ -1,0 +1,1 @@
+def mad_libs():
