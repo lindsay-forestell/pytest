@@ -3,6 +3,8 @@ Testing the production of python packages.
 
 # Installation
 
+Open your conda/venv where you wish to install the package. From the command line, you can pip-install:
+
     pip install git+https://github.com/lindsay-forestell/pytest.git
 
 # Usage
@@ -29,7 +31,7 @@ x = np.random.rand(100)
 plot_histogram(x)
 ```
 
-NEW in versoin 0.0.3! Create a madlibs about computers. 
+NEW in version 0.0.3! Create a madlibs about computers. 
 ```py
 from pytest.utils import mad_libs
 
