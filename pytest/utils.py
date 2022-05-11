@@ -40,6 +40,7 @@ def guess_a_number(max_guesses=10):
             guess_count += 1
 
         if guess_count < max_guesses:
-            guess = int(input(f'{string_start}. You have {max_guesses-guess_count} guesses remaining. Guess again: '))      
+            guess_left = max_guesses-guess_count
+            guess = int(input(f'{string_start}. You have {guess_left} guesses remaining. Guess again: '))
         else:
             print(f'Unlucky. The secret number was {random_number}.')
