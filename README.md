@@ -5,7 +5,7 @@ Testing the production of python packages.
 
 Open your conda/venv where you wish to install the package. From the command line, you can pip-install:
 
-    pip install git+https://github.com/lindsay-forestell/mypytest.git
+    pip install git+https://github.com/lindsay-fredrick/mypytest.git
 
 # Usage
 
